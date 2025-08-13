@@ -42,7 +42,7 @@ def add_booking(data: dict) -> int:
         INSERT INTO bookings
         (name, phone, pickup_place, dropoff_place, pickup_lat, pickup_lng, dropoff_lat, dropoff_lng, date, time)
         VALUES (?,?,?,?,?,?,?,?,?,?)
-        """",
+        """,
         (
             data['name'],
             data['phone'],
