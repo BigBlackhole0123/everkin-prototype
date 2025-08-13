@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'dev-secret-change-me')
 socketio = SocketIO(app, async_mode='eventlet')
 
-# Initialize DB tables
+socketio = SocketIO(app, async_mode='eventlet')
 create_tables()
 
 def load_places():
