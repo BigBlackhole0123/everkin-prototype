@@ -1,0 +1,11 @@
+everkin-prototype/
+├── app.py
+├── requirements.txt
+├── models.py
+├── templates/
+│   ├── landing.html
+│   ├── booking.html
+│   └── ... (ไฟล์อื่น ๆ)
+├── static/
+│   └── everkin_logo.png (ถ้ามีรูปภาพ)
+...
